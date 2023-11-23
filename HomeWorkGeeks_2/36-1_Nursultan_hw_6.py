@@ -1,3 +1,4 @@
+#Функция сортировки пузырьком
 def bubble_sort(lst):
     n = len(lst)
 
@@ -14,7 +15,7 @@ print(f"Отсортированный список: {sorted_list}")
 
 
 
-
+#Функция бинарного поиска
 def binary_search(A, Val):
     first = 0
     last = len(A)-1
